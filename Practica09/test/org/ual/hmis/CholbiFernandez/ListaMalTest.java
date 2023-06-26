@@ -34,7 +34,7 @@ public class ListaMalTest {
 	@Before
 	public void setUp() {
 
-		int browser = 1;
+		int browser = 0;
 		Boolean headless = false;
 
 		switch (browser) {
