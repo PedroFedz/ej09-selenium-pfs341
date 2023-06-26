@@ -75,6 +75,5 @@ public class EliminacionCorrectaTest {
 		driver.findElement(By.name("taskName")).click();
 		driver.findElement(By.name("taskName")).sendKeys("Ejemplo eliminacion");
 		driver.findElement(By.cssSelector(".btn-success")).click();
-		driver.findElement(By.cssSelector(".row:nth-child(8) .btn-danger")).click();
 	}
 }
