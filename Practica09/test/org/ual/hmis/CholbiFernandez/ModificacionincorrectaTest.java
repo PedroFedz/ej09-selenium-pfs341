@@ -72,6 +72,5 @@ public class ModificacionincorrectaTest {
 	public void modificacionincorrecta() {
 		driver.get("https://msdocs-node-mongo-2022-jcl539.azurewebsites.net/");
 		driver.manage().window().setSize(new Dimension(941, 528));
-		driver.findElement(By.cssSelector(".row:nth-child(5) .btn-danger")).click();
 	}
 }
